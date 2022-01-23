@@ -1,0 +1,159 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: white;
+	font-family: arial, Helvetica,sans-serif;
+}
+html,body{
+	overflow-x: hidden;
+}
+nav{
+	background-color: #45ccb8;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 4px 15px 4px 10px;
+}
+.dflex{
+	display: flex;
+	align-items: center;
+}
+.item{
+	padding: 10px 10px;
+}
+.item:hover{
+	border: 1px solid #fff;
+	border-radius: 2px;
+	margin: -1px;
+}
+.logo{
+	text-align: center;
+	margin: 1px;
+	margin-bottom: -5px;
+	padding: 6px 8px 0 0;
+	height: 42px;
+}
+a{
+	display: flex;
+	text-align: center;
+	align-items: center;
+	text-decoration: none;
+}
+a:hover{
+	margin: -1px;
+	border: 1px solid #fff;
+	border-radius: 3px;
+}
+a span{
+	font-size: 14px;
+	margin-left: -10px;
+}
+p{
+	font-size: 12px;
+	line-height: 15px;
+}
+.item i{
+	padding: 0 5px;
+}
+nav input {
+	width: 760px;
+	padding: 10px;
+	font-size: 17px;
+	border: none;
+	outline: none;
+	color: #000;
+	box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+}
+nav button{
+	padding: 10px 10px;
+	color: #45ccb8;
+	font-size: 17px;
+	border: none;
+	border-radius: 5px 0 0 5px;
+	cursor: pointer;
+}
+nav .all{
+	background: #ddd;
+	border-radius: 5px 0 0 5px;
+}
+nav .search{
+	padding: 10px 17px;
+	margin: -2px;
+	background: #e6e600;
+	border-radius: 0 5px 5px 0;
+}
+nav .search i{
+	color: #45ccb8;
+}
+.searchBox .box{
+	background: #fff;
+	width: 100%;
+	border-radius: 5px;
+	box-shadow: 0 1px 5px 3px rgba(0,0,0,0.12);
+	position: relative;
+}
+.box .autocom-box{
+	padding:0;
+	max-height: 280px;
+	overflow-y: auto;
+	opacity: 0;
+	pointer-events: none;
+}
+.box.active .autocom-box{
+	padding: 10px 8px;
+	opacity: 1;
+	pointer-events: auto;
+	z-index: 1;
+	
+}
+.searchBox .box .autocom-box li{
+	color: black;
+	list-style-type: none;
+	padding: 8px 12px;
+	width: 100%;
+	border-radius: 3px;
+	display: none;
+}
+.box.active .autocom-box li{
+	display: block;
+}
+.searchBox .box .autocom-box li:hover{
+	background: #efefef;
+}
+@media only screen and (max-width: 768px){
+	.left .item{
+		display: none;
+	}
+	.right .item:nth-child(1){
+		display: none;
+	}
+	.right .item:nth-child(2){
+		display: none;
+	}
+	.right .item:nth-child(3){
+		display: none;
+	}
+	.item{
+	padding: 5px 5px;
+}
+p{
+	font-size: 10px;
+}
+a span{
+	font-size: 11px;
+}
+nav input {
+	width: 150px;
+	padding: 5px;
+	font-size: 14px;
+}
+nav button{
+	padding: 5px 5px;
+	font-size: 14px;
+}
+nav .search{
+	margin: -5px;
+	padding: 5px 10px;
+}
+}
