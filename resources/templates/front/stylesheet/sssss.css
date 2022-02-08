@@ -1,0 +1,406 @@
+
+/***************************************For viewport less than or equal to 1130px****************************************************************/
+
+/*********************************XXX******For viewport less than or equal to 1130px************XX****************************************************/
+
+/***************************************For viewport less than or equal to 940px****************************************************************/
+
+/*********************************XXX******For viewport less than or equal to 940px************XX****************************************************/
+
+/*******************************************For viewport less than or equal to 767px****************************************************************/
+
+/*********************************XXX******For viewport less than or equal to 767px************XX****************************************************/
+/**************************************************For viewport less than or equal to 750px***************************************************************************************/
+/**********************************************XXX*************For viewport less than or equal to 750px***************************XXX***************************************************/
+/**************************************************For viewport less than or equal to 700px***************************************************************************************/
+@media only screen and (max-width: 700px){
+	header{
+	height: 90px;
+}
+.wrapper{
+		max-width: 350px;
+		bottom:40px;
+		left: 5%;
+	}
+	.wrapper .search-input{
+		width: 95%;
+		box-shadow: 0 1px 5px 3px rgba(0,0,0,0.12);
+	}
+	.search-input input{
+		height: 32px;
+		width: 95%;
+		padding: 0 20px 0 10px;
+		font-size: 15px;
+	}
+	.search-input .icon{
+		height: 32px;
+		width: 50px;
+		margin-top: 7px;
+		font-size: 16px;
+	}
+	.search-input .autocom-box{
+		padding: 0;
+		max-height: 200px;
+	}
+	.autocom-box li {
+		padding: 5px 8px;
+	}
+	 .help{
+        display: none;
+    }
+
+}
+/**********************************************XXX*************For viewport less than or equal to 700px***************************XXX***************************************************/
+/**************************************************For viewport less than or equal to 530px***************************************************************************************/
+@media (max-width: 530px){
+	.edit-container{
+		max-width: 100%;
+	}
+	form .user-details .input-box{
+	width: 100%;
+}
+	.edit-container form .user-details{
+		max-height: 300px;
+		overflow-y: scroll;
+}
+.wrapper{
+		max-width: 350px;
+		bottom:30px;
+	}
+	  .wellcome_username{
+		margin-left: 30% !important;
+	}
+	.basket-icon{
+		margin-right: 30px;
+	}
+}
+/************************************XXXXXX**************For viewport less than or equal to 530px**********************XXXXX*****************************************************************/
+@media only screen and (max-width: 460px){
+	.wrapper{
+		max-width: 300px;
+		bottom:28px;
+	}
+	.basket-icon{
+		margin-right: 35px;
+	}
+	.paymentMethod{
+	margin-left: 0%;
+	}
+	.copyright p{
+		margin-left: 3% !important;
+	}
+}
+/*********************************************************For viewport less than or equal to 400px*************************************************************************************/
+@media only screen and (max-width: 400px){
+	.rating-review td{
+    width: 100%  !important;
+}
+header{
+	height: 110px;
+}
+.wrapper{
+	max-width: 320px;
+		bottom:12px !important;
+	}
+	
+.dropdown-menu a.dropdown-links{
+	display: block;
+	font-size: 10px;
+	padding: 3px 5px;
+}
+.basket-icon{
+		margin-right: 40px;
+	}
+.basket-icon .fa-2x{
+	font-size: 1.6em;
+}
+.basket-icon .badge{
+	font-size: 10px;
+}
+	.basket-icon .badge {
+
+		border-radius: 50%;
+		min-width: 10px;
+		padding: 4px 6px 0;
+		min-height: 18px;
+		top: 1px;
+	}
+a.subCollection-link{
+	padding: 3px 6px;
+	text-decoration: none;
+	color: blue;
+	font-style: italic;
+}
+.notifications_section{
+	left: 70%;
+}
+ul .dropdown-menu{
+	position: absolute;
+	height: 120px !important;
+	width: 150px !important;
+	overflow-y: scroll;
+}
+.site-slider-two{
+	height: 50%;
+}
+
+.site-slider-two .bestselling_product img{
+	width: 50%;
+	margin: auto;
+}
+
+.bestselling_product a{
+	text-decoration: none;
+}
+.slider2title h5{
+	width: 110px;
+	height: 30px;
+	font-size: 15px;
+	margin: 6px auto;
+}
+.hotDealsTitle h5{
+	background-color: #6699ff;
+	color: #ffff00;
+	width: 100px;
+	padding: 3px 3px;
+	height: 25px;
+	margin-top: 1px;
+	font-size: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	left: 30%;
+}
+.hotDeals{
+	padding: 5px;
+}
+.hotDeals img{
+	width: 100%;
+	padding: 5px 0;
+}
+.hotDeals-bottom-overlay{
+	width: 100%;
+}
+.hotDeals-bottom-overlay h4{
+	font-size: 13px;
+	color: black;
+	font-weight: bold;
+}
+.hotDeals-bottom-overlay h5{
+	font-size: 14px;
+	font-weight: bold;
+}
+.hotDeals-bottom-overlay sup{
+	font-size: 10px;
+	color: red;
+}
+.btn-hotdeals{
+	margin: 0;
+	font-size: 12px;
+	padding: 1px;
+	font-weight:normal;
+	box-shadow: none !important;
+	color: yellow;
+}
+.hotDeals-bottom-overlay .fa{
+	color: var(--primary-color);
+	margin: 3px;
+}
+.similar_products_title{
+		width: 50%;
+		height: 30px;
+	}
+	.go_shopping_btn a{
+		width: 100%;
+	}
+
+/*************Slider3************/
+.newArrivalsTitle h5,
+.featuredTitle h5,
+.trendingTitle h5,
+.partnersTitle h5 {
+	background-color: var(--primary-color);
+	color: white;
+	width: 100px;
+	padding: 3px 3px;
+	height: 25px;
+	margin-top: 6px;
+	font-size: 14px;
+}
+
+.newArrivals h4,
+.featured h4,
+.trending h4,
+.partners h4{
+	font-size: 15px;
+}
+
+.newArrivals del,
+.featured del,
+.trending del,
+.partners del{
+	font-size: 12px;
+}
+
+.newArrivals sup,
+.featured sup,
+.trending sup,
+.partners sup{
+	font-size: 10px;
+}
+.newArrivals h5,
+.featured h5,
+.trending h5,
+.partners h5{
+	font-size: 15px;
+	font-weight: bold;
+}
+.newArrivals-btn,
+.featured-btn,
+.trending-btn,
+.partners-btn{
+	font-weight: normal;
+	margin: 0;
+	font-size: 12px;
+	padding: 3px 5px;
+}
+.ribbon1{
+	padding: 10px 0;
+	width: 100%;
+	margin-bottom: 2px;
+}
+.ribbon1 a{
+	font-size: 8px;
+}
+.ribbon1 a h6{
+	font-size: 14px;
+}
+
+.extras{
+	margin-left: 3px;
+}
+.extras h4{
+	font-size: 15px;
+}
+.extras a{
+	font-size: 10px;
+	line-height: 2px;
+	display: block;
+	width: 100%;
+}
+.ribbone1{
+		font-size: 12px;
+		padding: 15px 0;
+}
+#profile-bodr{
+		margin: 0 5px;
+	}
+	.profile-header h3{
+		font-size: 1.7rem;
+	}
+	.profile-header p,.profile-header span{
+		font-size: .9rem;
+	}
+	.profile-option{
+		width: 30px;
+		height: 30px;
+		position: absolute;
+		right: 15px;
+		top: 83%;
+	}
+	.profile-option .notification .alert-message{
+		top: -3px;
+		right: -4px;
+		padding: 4px;
+		height: 15px;
+		width: 15px;
+		font-size: .7rem;
+	}
+#container{
+	flex-direction: column;
+}
+#card{
+	border-radius: 8px;
+	display: flex;
+	flex-direction: column;
+}
+#card .like{
+	top: 30%;
+	right: 8%;
+	font-size: 32px;
+}
+#card .images,
+#card .infos{
+	width: 100%;
+}
+#card .images{
+	margin-top: 20%;
+}
+.infos .price{
+	width: 80%;
+}
+.price h3{
+	font-size: 20px;
+}
+.infos .more-infos{
+	width: 100%;
+}
+.infos{
+	padding: 40px;
+}
+.tab_content>h3{
+	font-size: 20px;
+}
+.tab_content {
+    display: none;
+    padding: 0 10px;
+    border: 1px solid var(--primary-color);
+    border-top: none;
+    margin-bottom: 6px
+}
+.buttons{
+	height: 40px;
+	margin-top: 10px;
+}
+
+.slider{
+	display: flex;
+	height: 80%;
+}
+.slider img{
+	width: 70%;
+}
+.img-slider{
+	height:100px;
+	width: 80%;
+}
+.img-slider div{
+	width: 70%;
+	height: 70%;
+}
+.checkout_btn a{
+	margin-left: 0 !important;
+}
+
+footer h4{
+	font-size: 10px;
+}
+footer h6{
+	font-size: 12px;
+}
+footer a{
+	font-size: 11px;
+	line-height: 1px;
+	display: block;
+	width: 100%;
+}
+.about_us>p{
+		font-size: 10px;
+	}
+.social-media-icons .fab{
+	color: black;
+	margin-right: 2px;
+}
+
+
+}
+/***************************************************************For viewport less than or equal to 700px****************************************************************************************************/
